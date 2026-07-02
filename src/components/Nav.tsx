@@ -6,8 +6,8 @@ export default function Nav() {
           prompt<span className="text-indigo">.</span>shop
         </a>
         <nav className="hidden items-center gap-8 font-sans text-sm text-ink-soft md:flex">
-          <a href="#categories" className="hover:text-ink">Catégories</a>
           <a href="#offres" className="hover:text-ink">Offres</a>
+          <a href="#formation" className="hover:text-ink">Formation</a>
           <a href="#faq" className="hover:text-ink">FAQ</a>
           <a href="#contact" className="hover:text-ink">Contact</a>
         </nav>

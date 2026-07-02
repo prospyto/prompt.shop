@@ -5,7 +5,7 @@ const OFFERS = [
       "L'instantanéité pure. Accédez à notre arsenal de prompts certifiés, prêts à déployer.",
     price: "À partir de 1 000 FCFA",
     cta: "Parcourir le catalogue",
-    href: "#categories",
+    href: "#offres",
   },
   {
     name: "Prompts sur mesure",

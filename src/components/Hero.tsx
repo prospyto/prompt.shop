@@ -26,10 +26,10 @@ export default function Hero() {
             Passer au niveau supérieur
           </a>
           <a
-            href="#categories"
+            href="#offres"
             className="font-sans text-sm font-medium text-ink underline decoration-line underline-offset-4 transition hover:decoration-ink"
           >
-            Voir le catalogue
+            Voir les offres
           </a>
         </div>
       </div>
