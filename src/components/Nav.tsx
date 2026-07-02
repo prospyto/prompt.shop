@@ -7,15 +7,15 @@ export default function Nav() {
         </a>
         <nav className="hidden items-center gap-8 font-sans text-sm text-ink-soft md:flex">
           <a href="#categories" className="hover:text-ink">Catégories</a>
+          <a href="#tarifs" className="hover:text-ink">Tarifs</a>
           <a href="#comment" className="hover:text-ink">Comment ça marche</a>
-          <a href="#avis" className="hover:text-ink">Avis</a>
           <a href="#faq" className="hover:text-ink">FAQ</a>
         </nav>
         <a
-          href="#categories"
+          href="#tarifs"
           className="rounded-full bg-indigo px-4 py-2 font-sans text-sm font-medium text-white transition hover:bg-violet"
         >
-          Voir les prompts
+          Voir les tarifs
         </a>
       </div>
     </header>

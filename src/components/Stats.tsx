@@ -1,8 +1,10 @@
+import CountUp from "./CountUp";
+
 const STATS = [
-  { value: "500 FCFA", label: "prix de départ" },
-  { value: "78+", label: "prompts testés" },
-  { value: "4", label: "catégories" },
-  { value: "100%", label: "prêts à copier-coller" },
+  { value: <>500<span className="font-mono text-lg"> FCFA</span></>, label: "prix de départ", isCount: false },
+  { value: <><CountUp to={78} suffix="+" /></>, label: "prompts testés", isCount: true },
+  { value: <><CountUp to={4} /></>, label: "catégories", isCount: true },
+  { value: <><CountUp to={100} suffix="%" /></>, label: "prêts à copier-coller", isCount: true },
 ];
 
 export default function Stats() {
@@ -12,10 +14,10 @@ export default function Stats() {
         prompt.shop en chiffres
       </h2>
       <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
-        {STATS.map((s) => (
+        {STATS.map((s, i) => (
           <div
-            key={s.label}
-            className="rounded-xl border border-line bg-white px-5 py-6 text-center"
+            key={i}
+            className="rounded-xl border border-line bg-white px-5 py-6 text-center transition hover:-translate-y-1 hover:border-violet"
           >
             <div className="font-display text-2xl font-semibold text-indigo">
               {s.value}
