@@ -118,21 +118,21 @@ body {
 }
 
 @keyframes draw-square {
-  0% { stroke-dashoffset: 280; opacity: 0; }
+  0% { stroke-dashoffset: 320; opacity: 0; }
   10% { opacity: 0.35; }
   42% { stroke-dashoffset: 0; opacity: 0.35; }
   62% { stroke-dashoffset: 0; opacity: 0.35; }
   90% { opacity: 0.35; }
-  100% { stroke-dashoffset: -280; opacity: 0; }
+  100% { stroke-dashoffset: -320; opacity: 0; }
 }
 
 @keyframes draw-triangle {
-  0% { stroke-dashoffset: 240; opacity: 0; }
+  0% { stroke-dashoffset: 250; opacity: 0; }
   10% { opacity: 0.35; }
   42% { stroke-dashoffset: 0; opacity: 0.35; }
   62% { stroke-dashoffset: 0; opacity: 0.35; }
   90% { opacity: 0.35; }
-  100% { stroke-dashoffset: -240; opacity: 0; }
+  100% { stroke-dashoffset: -250; opacity: 0; }
 }
 
 .ambient-circle {
@@ -143,14 +143,14 @@ body {
 }
 
 .ambient-square {
-  stroke-dasharray: 280;
+  stroke-dasharray: 320;
   animation-name: draw-square;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
 
 .ambient-triangle {
-  stroke-dasharray: 240;
+  stroke-dasharray: 250;
   animation-name: draw-triangle;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
