@@ -1,9 +1,10 @@
 import PromptConsole from "./PromptConsole";
+import AmbientShapes from "./AmbientShapes";
 
 export default function Hero() {
   return (
-    <section className="mx-auto grid max-w-6xl gap-10 px-6 py-16 sm:py-24 md:grid-cols-2 md:items-center md:gap-12">
-      <div>
+    <section className="relative mx-auto grid max-w-6xl gap-10 overflow-hidden px-6 py-16 sm:py-24 md:grid-cols-2 md:items-center md:gap-12">
+      <AmbientShapes />      <div>
         <span className="hero-fade hero-fade-1 inline-block rounded-full border border-line bg-white px-3 py-1 font-mono text-xs text-ink-soft">
           à partir de 500 FCFA
         </span>

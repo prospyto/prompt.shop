@@ -107,3 +107,61 @@ body {
     animation: none !important;
   }
 }
+
+@keyframes draw-circle {
+  0% { stroke-dashoffset: 252; opacity: 0; }
+  10% { opacity: 0.35; }
+  42% { stroke-dashoffset: 0; opacity: 0.35; }
+  62% { stroke-dashoffset: 0; opacity: 0.35; }
+  90% { opacity: 0.35; }
+  100% { stroke-dashoffset: -252; opacity: 0; }
+}
+
+@keyframes draw-square {
+  0% { stroke-dashoffset: 280; opacity: 0; }
+  10% { opacity: 0.35; }
+  42% { stroke-dashoffset: 0; opacity: 0.35; }
+  62% { stroke-dashoffset: 0; opacity: 0.35; }
+  90% { opacity: 0.35; }
+  100% { stroke-dashoffset: -280; opacity: 0; }
+}
+
+@keyframes draw-triangle {
+  0% { stroke-dashoffset: 240; opacity: 0; }
+  10% { opacity: 0.35; }
+  42% { stroke-dashoffset: 0; opacity: 0.35; }
+  62% { stroke-dashoffset: 0; opacity: 0.35; }
+  90% { opacity: 0.35; }
+  100% { stroke-dashoffset: -240; opacity: 0; }
+}
+
+.ambient-circle {
+  stroke-dasharray: 252;
+  animation-name: draw-circle;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.ambient-square {
+  stroke-dasharray: 280;
+  animation-name: draw-square;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.ambient-triangle {
+  stroke-dasharray: 240;
+  animation-name: draw-triangle;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ambient-circle,
+  .ambient-square,
+  .ambient-triangle {
+    animation: none !important;
+    opacity: 0.1 !important;
+    stroke-dashoffset: 0 !important;
+  }
+}
