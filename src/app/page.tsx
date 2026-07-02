@@ -2,6 +2,9 @@ import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import OfferPlatform from "@/components/OfferPlatform";
 import Categories from "@/components/Categories";
+import FormationDetails from "@/components/FormationDetails";
+import FormationSteps from "@/components/FormationSteps";
+import FormationReviews from "@/components/FormationReviews";
 import Trust from "@/components/Trust";
 import Stats from "@/components/Stats";
 import Testimonials from "@/components/Testimonials";
@@ -22,6 +25,15 @@ export default function Home() {
         </Reveal>
         <Reveal>
           <Categories />
+        </Reveal>
+        <Reveal>
+          <FormationDetails />
+        </Reveal>
+        <Reveal>
+          <FormationSteps />
+        </Reveal>
+        <Reveal>
+          <FormationReviews />
         </Reveal>
         <Reveal>
           <Trust />
