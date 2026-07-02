@@ -1,10 +1,12 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
+import OfferPlatform from "@/components/OfferPlatform";
+import TechnicalProof from "@/components/TechnicalProof";
 import Categories from "@/components/Categories";
-import Pricing from "@/components/Pricing";
 import HowItWorks from "@/components/HowItWorks";
 import Stats from "@/components/Stats";
 import Testimonials from "@/components/Testimonials";
+import ContactDirect from "@/components/ContactDirect";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
@@ -16,10 +18,11 @@ export default function Home() {
       <main>
         <Hero />
         <Reveal>
-          <Categories />
+          <OfferPlatform />
         </Reveal>
+        <TechnicalProof />
         <Reveal>
-          <Pricing />
+          <Categories />
         </Reveal>
         <Reveal>
           <HowItWorks />
@@ -29,6 +32,9 @@ export default function Home() {
         </Reveal>
         <Reveal>
           <Testimonials />
+        </Reveal>
+        <Reveal>
+          <ContactDirect />
         </Reveal>
         <Reveal>
           <FAQ />

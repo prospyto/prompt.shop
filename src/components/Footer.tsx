@@ -3,16 +3,16 @@ export default function Footer() {
     <footer className="border-t border-line bg-white">
       <div className="mx-auto max-w-6xl px-6 py-16 text-center sm:py-20">
         <h2 className="font-display text-2xl font-semibold tracking-tight text-ink sm:text-3xl">
-          Arrête de deviner. Commence avec le bon prompt.
+          Le futur de l&apos;image ne s&apos;attend pas, il se programme.
         </h2>
         <p className="mx-auto mt-3 max-w-md font-sans text-ink-soft">
-          Photo, vidéo, mockup ou template — à partir de 500 FCFA.
+          Votre maîtrise, notre technologie.
         </p>
         <a
-          href="#categories"
+          href="#offres"
           className="mt-6 inline-block rounded-full bg-indigo px-6 py-3 font-sans text-sm font-medium text-white transition hover:bg-violet"
         >
-          Explorer les prompts
+          Passer au niveau supérieur
         </a>
       </div>
       <div className="border-t border-line px-6 py-6">

@@ -1,7 +1,7 @@
 import CountUp from "./CountUp";
 
 const STATS = [
-  { value: <>500<span className="font-mono text-lg"> FCFA</span></>, label: "prix de départ", isCount: false },
+  { value: <>1 000<span className="font-mono text-lg"> FCFA</span></>, label: "prix de départ", isCount: false },
   { value: <><CountUp to={78} suffix="+" /></>, label: "prompts testés", isCount: true },
   { value: <><CountUp to={4} /></>, label: "catégories", isCount: true },
   { value: <><CountUp to={100} suffix="%" /></>, label: "prêts à copier-coller", isCount: true },
