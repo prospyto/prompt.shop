@@ -23,7 +23,7 @@ export default function Roadmap() {
         {UPCOMING.map((item) => (
           <div
             key={item.title}
-            className="rounded-xl border border-dashed border-line bg-white p-6"
+            className="rounded-xl border border-dashed border-line bg-white p-6 transition duration-300 hover:-translate-y-1.5 hover:border-solid hover:border-violet hover:shadow-xl hover:shadow-indigo/10"
           >
             <span className="rounded-full bg-violet-pale px-3 py-1 font-mono text-xs text-violet">
               bientôt

@@ -6,10 +6,7 @@ export default function Hero() {
     <section className="relative mx-auto grid max-w-6xl gap-10 overflow-hidden px-6 py-16 sm:py-24 md:grid-cols-2 md:items-center md:gap-12">
       <AmbientShapes />
       <div>
-        <span className="hero-fade hero-fade-1 inline-block rounded-full border border-line bg-white px-3 py-1 font-mono text-xs text-ink-soft">
-          à partir de 1 000 FCFA
-        </span>
-        <h1 className="hero-fade hero-fade-2 mt-5 font-display text-4xl font-semibold leading-[1.05] tracking-tight text-ink sm:text-5xl">
+        <h1 className="hero-fade hero-fade-2 font-display text-4xl font-semibold leading-[1.05] tracking-tight text-ink sm:text-5xl">
           ÉCRIVEZ.
           <br />
           GÉNÉREZ.

@@ -42,7 +42,7 @@ export default function Categories() {
         {CATEGORIES.map((cat) => (
           <div
             key={cat.name}
-            className="rounded-xl border border-line bg-white p-6 transition hover:border-violet"
+            className="rounded-xl border border-line bg-white p-6 transition duration-300 hover:-translate-y-1.5 hover:border-violet hover:shadow-xl hover:shadow-indigo/10"
           >
             <div className="flex items-start justify-between">
               <h3 className="font-display text-lg font-semibold text-ink">
