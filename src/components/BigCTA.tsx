@@ -34,10 +34,13 @@ export default function BigCTA() {
     <section id="contact" className="mx-auto max-w-6xl px-6 py-16 sm:py-20">
       <div
         ref={ref}
-        className="grid gap-10 rounded-2xl bg-ink px-6 py-12 text-white sm:px-12 sm:py-16 md:grid-cols-2 md:items-center"
+        className="grid gap-10 rounded-2xl px-6 py-12 text-white sm:px-12 sm:py-16 md:grid-cols-2 md:items-center"
+        style={{
+          background: "linear-gradient(135deg, #310CEB 0%, #690CEB 100%)",
+        }}
       >
         <div>
-          <span className="inline-block rounded-full bg-violet px-3 py-1 font-mono text-xs">
+          <span className="inline-block rounded-full bg-white/15 px-3 py-1 font-mono text-xs text-white">
             sur mesure
           </span>
           <h2 className="mt-4 font-display text-2xl font-semibold leading-tight tracking-tight sm:text-3xl">
@@ -61,7 +64,7 @@ export default function BigCTA() {
         <ul className="space-y-4">
           {REASONS.map((r) => (
             <li key={r} className="flex items-start gap-3">
-              <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-violet" />
+              <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-white" />
               <span className="font-sans text-sm leading-relaxed text-white/85">
                 {r}
               </span>
