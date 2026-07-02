@@ -110,28 +110,28 @@ body {
 
 @keyframes draw-circle {
   0% { stroke-dashoffset: 252; opacity: 0; }
-  10% { opacity: 0.35; }
-  42% { stroke-dashoffset: 0; opacity: 0.35; }
-  62% { stroke-dashoffset: 0; opacity: 0.35; }
-  90% { opacity: 0.35; }
+  10% { opacity: 0.6; }
+  42% { stroke-dashoffset: 0; opacity: 0.6; }
+  62% { stroke-dashoffset: 0; opacity: 0.6; }
+  90% { opacity: 0.6; }
   100% { stroke-dashoffset: -252; opacity: 0; }
 }
 
 @keyframes draw-square {
   0% { stroke-dashoffset: 320; opacity: 0; }
-  10% { opacity: 0.35; }
-  42% { stroke-dashoffset: 0; opacity: 0.35; }
-  62% { stroke-dashoffset: 0; opacity: 0.35; }
-  90% { opacity: 0.35; }
+  10% { opacity: 0.6; }
+  42% { stroke-dashoffset: 0; opacity: 0.6; }
+  62% { stroke-dashoffset: 0; opacity: 0.6; }
+  90% { opacity: 0.6; }
   100% { stroke-dashoffset: -320; opacity: 0; }
 }
 
 @keyframes draw-triangle {
   0% { stroke-dashoffset: 250; opacity: 0; }
-  10% { opacity: 0.35; }
-  42% { stroke-dashoffset: 0; opacity: 0.35; }
-  62% { stroke-dashoffset: 0; opacity: 0.35; }
-  90% { opacity: 0.35; }
+  10% { opacity: 0.6; }
+  42% { stroke-dashoffset: 0; opacity: 0.6; }
+  62% { stroke-dashoffset: 0; opacity: 0.6; }
+  90% { opacity: 0.6; }
   100% { stroke-dashoffset: -250; opacity: 0; }
 }
 
@@ -161,7 +161,7 @@ body {
   .ambient-square,
   .ambient-triangle {
     animation: none !important;
-    opacity: 0.1 !important;
+    opacity: 0.35 !important;
     stroke-dashoffset: 0 !important;
   }
 }

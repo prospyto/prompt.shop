@@ -23,7 +23,7 @@ function ShapeSvg({ shape }: { shape: (typeof SHAPES)[number] }) {
           cy={50}
           r={40}
           fill="none"
-          strokeWidth={2}
+          strokeWidth={2.5}
           opacity={0}
           style={style}
         />
@@ -42,7 +42,7 @@ function ShapeSvg({ shape }: { shape: (typeof SHAPES)[number] }) {
           height={80}
           transform={`rotate(${shape.rotate ?? 0} 50 50)`}
           fill="none"
-          strokeWidth={2}
+          strokeWidth={2.5}
           opacity={0}
           style={style}
         />
@@ -57,7 +57,7 @@ function ShapeSvg({ shape }: { shape: (typeof SHAPES)[number] }) {
         points="50,10 90,85 10,85"
         transform={`rotate(${shape.rotate ?? 0} 50 50)`}
         fill="none"
-        strokeWidth={2}
+        strokeWidth={2.5}
         opacity={0}
         style={style}
       />
