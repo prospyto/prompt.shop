@@ -214,3 +214,75 @@ body {
     transition: none !important;
   }
 }
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.creation-ring {
+  animation: spin-slow 20s linear infinite;
+}
+
+@keyframes cycle-fade-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.cycle-fade {
+  animation: cycle-fade-in 0.5s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .creation-ring {
+    animation: none !important;
+  }
+  .cycle-fade {
+    animation: none !important;
+  }
+}
+
+.milestone-card {
+  opacity: 0;
+  transform: translate(-50%, calc(-100% + 8px)) scale(0.9);
+  transition: opacity 0.3s ease-out;
+}
+
+.milestone-card.is-visible {
+  animation: milestone-bounce 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+@keyframes milestone-bounce {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, calc(-100% + 8px)) scale(0.85);
+  }
+  60% {
+    opacity: 1;
+    transform: translate(-50%, calc(-100% - 4px)) scale(1.03);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -100%) scale(1);
+  }
+}
+
+@keyframes cta-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(105, 12, 235, 0.35); }
+  50% { box-shadow: 0 0 0 10px rgba(105, 12, 235, 0); }
+}
+
+.cta-glow {
+  animation: cta-glow 2.4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .milestone-card.is-visible {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: translate(-50%, -100%) scale(1) !important;
+  }
+  .cta-glow {
+    animation: none !important;
+  }
+}

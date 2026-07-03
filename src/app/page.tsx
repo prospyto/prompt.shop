@@ -1,6 +1,8 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
+import CreationCycle from "@/components/CreationCycle";
 import ProblemSolution from "@/components/ProblemSolution";
+import ProgressionMountain from "@/components/ProgressionMountain";
 import CategoryGrid from "@/components/CategoryGrid";
 import TechnicalGallery from "@/components/TechnicalGallery";
 import PricingOffer from "@/components/PricingOffer";
@@ -14,9 +16,11 @@ export default function Home() {
       <Nav />
       <main>
         <Hero />
+        <CreationCycle />
         <Reveal>
           <ProblemSolution />
         </Reveal>
+        <ProgressionMountain />
         <Reveal>
           <CategoryGrid />
         </Reveal>

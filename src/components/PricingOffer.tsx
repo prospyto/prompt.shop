@@ -36,7 +36,7 @@ export default function PricingOffer() {
 
         <a
           href="#categories"
-          className="mt-7 inline-block rounded-full bg-indigo px-7 py-3.5 font-sans text-sm font-medium text-white transition hover:bg-violet"
+          className="cta-glow mt-7 inline-block rounded-full bg-indigo px-7 py-3.5 font-sans text-sm font-medium text-white transition hover:bg-violet"
         >
           Acheter et télécharger maintenant
         </a>

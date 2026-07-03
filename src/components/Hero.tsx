@@ -21,7 +21,7 @@ export default function Hero() {
         <div className="hero-fade hero-fade-4 mt-8 flex flex-wrap items-center gap-4">
           <a
             href="#offre"
-            className="rounded-full bg-indigo px-6 py-3 font-sans text-sm font-medium text-white transition hover:bg-violet hover:shadow-lg hover:shadow-indigo/20"
+            className="cta-glow rounded-full bg-indigo px-6 py-3 font-sans text-sm font-medium text-white transition hover:bg-violet hover:shadow-lg hover:shadow-indigo/20"
           >
             Passer au niveau supérieur
           </a>
