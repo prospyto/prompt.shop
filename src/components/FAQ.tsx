@@ -1,19 +1,19 @@
 const FAQS = [
   {
-    q: "Est-ce que le prompt fonctionne à tous les coups ?",
-    a: "Chaque prompt est testé avant publication. Le résultat peut varier légèrement selon l'outil IA utilisé, mais la structure et le rendu annoncés restent fiables.",
+    q: "Sur quels outils fonctionnent vos prompts ?",
+    a: "Nos prompts sont optimisés pour les leaders du marché (Midjourney, Stable Diffusion, DALL·E, Runway, Sora selon les packs). Chaque pack précise l'outil recommandé.",
   },
   {
-    q: "Sur quels outils IA je peux utiliser ces prompts ?",
-    a: "La plupart fonctionnent sur les générateurs d'image et de vidéo courants (Midjourney, ChatGPT/DALL·E, Runway...). Chaque prompt précise l'outil recommandé.",
+    q: "Comment se déroule la livraison après le paiement ?",
+    a: "C'est instantané. Dès la validation de votre paiement, vous recevez un accès direct à vos fichiers.",
   },
   {
-    q: "Comment je reçois mes prompts après achat ?",
-    a: "Après paiement, tu reçois immédiatement le fichier contenant les prompts achetés, prêts à copier-coller.",
+    q: "Puis-je utiliser les images générées pour un usage commercial ?",
+    a: "Oui, absolument. Les visuels que vous générez avec nos prompts vous appartiennent à 100% et peuvent être vendus ou utilisés pour vos clients.",
   },
   {
     q: "Puis-je demander un prompt sur mesure ?",
-    a: "Oui, contacte-nous avec ta demande précise et on te propose un prompt adapté à ton besoin.",
+    a: "Oui, contactez-nous avec votre demande précise et nous vous proposons un prompt adapté à votre besoin.",
   },
 ];
 

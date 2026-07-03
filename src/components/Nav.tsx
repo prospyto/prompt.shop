@@ -6,16 +6,15 @@ export default function Nav() {
           prompt<span className="text-indigo">.</span>shop
         </a>
         <nav className="hidden items-center gap-8 font-sans text-sm text-ink-soft md:flex">
-          <a href="#offres" className="hover:text-ink">Offres</a>
-          <a href="#formation" className="hover:text-ink">Formation</a>
+          <a href="#categories" className="hover:text-ink">Catégories</a>
+          <a href="#offre" className="hover:text-ink">Tarif</a>
           <a href="#faq" className="hover:text-ink">FAQ</a>
-          <a href="#contact" className="hover:text-ink">Contact</a>
         </nav>
         <a
-          href="#offres"
+          href="#offre"
           className="rounded-full bg-indigo px-4 py-2 font-sans text-sm font-medium text-white transition hover:bg-violet"
         >
-          Passer au niveau supérieur
+          Explorer le catalogue
         </a>
       </div>
     </header>

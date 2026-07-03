@@ -20,13 +20,13 @@ export default function Hero() {
         </p>
         <div className="hero-fade hero-fade-4 mt-8 flex flex-wrap items-center gap-4">
           <a
-            href="#offres"
+            href="#offre"
             className="rounded-full bg-indigo px-6 py-3 font-sans text-sm font-medium text-white transition hover:bg-violet hover:shadow-lg hover:shadow-indigo/20"
           >
             Passer au niveau supérieur
           </a>
           <a
-            href="#offres"
+            href="#offre"
             className="font-sans text-sm font-medium text-ink underline decoration-line underline-offset-4 transition hover:decoration-ink"
           >
             Voir les offres

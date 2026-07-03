@@ -1,13 +1,10 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
-import OfferPlatform from "@/components/OfferPlatform";
-import FormationDetails from "@/components/FormationDetails";
-import FormationSteps from "@/components/FormationSteps";
-import FormationReviews from "@/components/FormationReviews";
-import Stats from "@/components/Stats";
-import Testimonials from "@/components/Testimonials";
+import ProblemSolution from "@/components/ProblemSolution";
+import CategoryGrid from "@/components/CategoryGrid";
+import TechnicalGallery from "@/components/TechnicalGallery";
+import PricingOffer from "@/components/PricingOffer";
 import FAQ from "@/components/FAQ";
-import BigCTA from "@/components/BigCTA";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
 
@@ -18,28 +15,19 @@ export default function Home() {
       <main>
         <Hero />
         <Reveal>
-          <OfferPlatform />
+          <ProblemSolution />
         </Reveal>
         <Reveal>
-          <FormationDetails />
+          <CategoryGrid />
         </Reveal>
         <Reveal>
-          <FormationSteps />
+          <TechnicalGallery />
         </Reveal>
         <Reveal>
-          <FormationReviews />
-        </Reveal>
-        <Reveal>
-          <Stats />
-        </Reveal>
-        <Reveal>
-          <Testimonials />
+          <PricingOffer />
         </Reveal>
         <Reveal>
           <FAQ />
-        </Reveal>
-        <Reveal>
-          <BigCTA />
         </Reveal>
       </main>
       <Footer />
