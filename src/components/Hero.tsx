@@ -7,11 +7,11 @@ export default function Hero() {
       <AmbientShapes />
       <div>
         <h1 className="hero-fade hero-fade-2 font-display text-4xl font-semibold leading-[1.05] tracking-tight text-ink sm:text-5xl">
-          ÉCRIVEZ.
+          <span className="liquid-word liquid-word-1" data-text="ÉCRIVEZ.">ÉCRIVEZ.</span>
           <br />
-          GÉNÉREZ.
+          <span className="liquid-word liquid-word-2" data-text="GÉNÉREZ.">GÉNÉREZ.</span>
           <br />
-          VENDEZ.
+          <span className="liquid-word liquid-word-3" data-text="VENDEZ.">VENDEZ.</span>
         </h1>
         <p className="hero-fade hero-fade-3 mt-5 max-w-md font-sans text-base leading-relaxed text-ink-soft sm:text-lg">
           Des prompts d&apos;ingénierie professionnelle pour dominer vos

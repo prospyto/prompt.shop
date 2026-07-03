@@ -41,7 +41,12 @@ export default function CreationCycle() {
         onMouseLeave={() => (paused.current = false)}
       >
         <div className="creation-ring absolute inset-0 rounded-full border-2 border-dashed border-violet-pale" />
-        <div className="absolute inset-4 rounded-full border border-line" />
+        <div
+          className="absolute inset-4 rounded-full"
+          style={{
+            background: "linear-gradient(135deg, #310CEB 0%, #690CEB 100%)",
+          }}
+        />
 
         {STEPS.map((step, i) => (
           <button
@@ -54,7 +59,7 @@ export default function CreationCycle() {
               top: POSITIONS[i].top,
               left: POSITIONS[i].left,
               transform: `translate(${POSITIONS[i].translate})`,
-              backgroundColor: i === active ? "#310CEB" : "#DEDAD1",
+              backgroundColor: i === active ? "#FFFFFF" : "rgba(255,255,255,0.35)",
             }}
             aria-label={step.label}
           />
@@ -63,13 +68,13 @@ export default function CreationCycle() {
         <div className="absolute inset-0 flex flex-col items-center justify-center px-8">
           <span
             key={active}
-            className="cycle-fade font-display text-lg font-semibold text-ink sm:text-xl"
+            className="cycle-fade font-display text-lg font-semibold text-white sm:text-xl"
           >
             {STEPS[active].label}
           </span>
           <span
             key={`${active}-desc`}
-            className="cycle-fade mt-1 font-sans text-xs text-ink-soft sm:text-sm"
+            className="cycle-fade mt-1 font-sans text-xs text-white/80 sm:text-sm"
           >
             {STEPS[active].desc}
           </span>

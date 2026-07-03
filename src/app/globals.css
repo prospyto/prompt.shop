@@ -286,3 +286,43 @@ body {
     animation: none !important;
   }
 }
+
+.liquid-word {
+  position: relative;
+  display: inline-block;
+  color: var(--ink);
+}
+
+.liquid-word::before {
+  content: attr(data-text);
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #310CEB 0%, #690CEB 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  clip-path: inset(100% 0 0 0);
+  animation: liquid-fill 4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.liquid-word-2::before {
+  animation-delay: 0.5s;
+}
+.liquid-word-3::before {
+  animation-delay: 1s;
+}
+
+@keyframes liquid-fill {
+  0% { clip-path: inset(100% 0 0 0); }
+  40% { clip-path: inset(0% 0 0 0); }
+  60% { clip-path: inset(0% 0 0 0); }
+  100% { clip-path: inset(100% 0 0 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .liquid-word::before {
+    animation: none !important;
+    clip-path: inset(0 0 0 0) !important;
+  }
+}
